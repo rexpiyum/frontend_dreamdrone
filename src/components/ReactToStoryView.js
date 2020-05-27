@@ -20,6 +20,7 @@ const ContentWrapper = styled.div`
   margin: auto;
   position: relative;
   height: auto;
+  padding-bottom:5vw;
 
   @media ${devices.mobile} {
     flex-direction: column;

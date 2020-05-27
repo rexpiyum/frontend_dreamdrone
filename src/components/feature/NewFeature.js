@@ -6,20 +6,22 @@ import {animationKeyFrames} from "../../config/keyframes"
 
 
 const Container = styled.div`
-  position:relative;
-  border-radius:0.8vw;
+  position: relative;
+  border-radius: 0.8vw;
   border: solid 2px ${theme.secondaryColor};
-  width:18vw;
-  overflow:scroll;
-  padding:1vw;
-  margin:0.5vw;
-  background-color:#ffffff;
-  height:25vh;
+  width: 18vw;
+  overflow: scroll;
+  padding: 1vw;
+  margin: 0.5vw;
+  background-color: #ffffff;
+  height: 25vh;
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
 
   @media ${devices.mobile} {
-    width:50vw;
-    height:50vw;
-    max-height:50vw;
+    width: 50vw;
+    height: 50vw;
+    max-height: 50vw;
   }
 `;
 

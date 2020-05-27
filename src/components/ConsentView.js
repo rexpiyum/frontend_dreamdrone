@@ -96,7 +96,7 @@ export default class ConsentView extends Component {
     return (
       <Wrapper>
         <Title>Before we proceed... </Title>
-        <Message>This "dream drone" web platform is developed by researchers of the Social and Digital Systems Group at Arizona State University as a research tool to learn how crowd-generated fictions can shape future drone technologies. This platform will take between 15 - 20 minutes to navigate.</Message>
+        <Message>This "dream drone" web platform is developed by researchers of the Social and Digital Systems Group at Arizona State University as a research tool to explore how crowd-generated fictions can shape future technologies. The activities of this platform will take around 10 - 15 minutes of your time.</Message>
         <Message>Your participation is 100% voluntary and you may quit or exit at any time. However, all your answers up to that point will be shared with us anonymously. </Message>
         <Message>There are no foreseeable risks involved in participating in this study. At the end, you will be asked if you are interested
 in participating in a follow-up interview. If you choose to provide contact information such as
@@ -130,9 +130,8 @@ names or identifying information will be included in any publications or present
           'Content-Type': 'application/json',
           'Mode': "CORS"
         }
-      }).then(response => { alert(response); response.json() })
+      }).then(response => response.json())
       .then(data => {
-        alert(JSON.stringify(data))
         fetch('/drones/',
           {
             method: 'POST',

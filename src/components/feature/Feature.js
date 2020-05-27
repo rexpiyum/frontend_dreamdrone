@@ -29,14 +29,16 @@ const Container = styled.div`
 
 const TextContainer = styled.div`
   max-height: 10vw;
-  margin:1.2vw;
-  overflow:scroll;
+  margin: 1.2vw;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
 `;
 const Title = styled.h3`
-  font-size: 1.2vw
+  font-size: 1.2vw;
   margin:0;
   font-family: "Roboto";
-  font-weight: 700
+  font-weight: 700;
   animation: ${animationKeyFrames.slideFromBottom} 1s ease;
   text-align:left;
   text-transform:capitalize;
