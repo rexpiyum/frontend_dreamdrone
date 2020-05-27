@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 const url =
-  "http://backenddreamdrones-env.eba-g2dzmmfp.us-east-2.elasticbeanstalk.com";
+  "https://www.api.dreamdrone.org";
 
 module.exports = function (app) { 
     app.use(createProxyMiddleware("/drones", { target: url }));
