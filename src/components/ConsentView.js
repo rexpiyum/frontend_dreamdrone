@@ -131,8 +131,9 @@ names or identifying information will be included in any publications or present
           'Content-Type': 'application/json',
           'Mode': "CORS"
         }
-      }).then(response => response.json())
+      }).then(response => { alert(response); response.json() })
       .then(data => {
+        alert(JSON.stringify(data))
         fetch('/drones/',
           {
             method: 'POST',
