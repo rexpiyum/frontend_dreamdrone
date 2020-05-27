@@ -35,5 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://backenddreamdrones-env.eba-g2dzmmfp.us-east-2.elasticbeanstalk.com/"
+  "proxy": "http://backenddreamdrones-env.eba-g2dzmmfp.us-east-2.elasticbeanstalk.com"
 }
