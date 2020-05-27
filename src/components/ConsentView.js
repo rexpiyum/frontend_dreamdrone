@@ -103,7 +103,7 @@ in participating in a follow-up interview. If you choose to provide contact info
 your email address, your survey responses may no longer be anonymous to the researchers.
 Those information will be retained by the research team for up to three years. However, no
 names or identifying information will be included in any publications or presentations.</Message>
-        <Message>If you have any questions concerning the research study, please contact the research team: Piyum Fernando (<a href="mailto:pfernan4@asu.edu">pfernan4@asu.edu</a>) | Alejandra Rodriguez Vega (<a href="mailto:ale.rodriguez@asu.edu">ale.rodriguez@asu.edu</a>) | Stacey Kuznetsov (<a href="mailto:askuznet@asu.edu">askuznet@asu.edu</a>).</Message>
+        <Message>If you have any questions concerning the research study, please contact the research team: Piyum Fernando (<a href="mailto:pfernan4@asu.edu">pfernan4@asu.edu</a>) | Alejandra Rodriguez Vega (<a href="mailto:ale.rodriguez@asu.edu">ale.rodriguez@asu.edu</a>) | Asst.Prof. Stacey Kuznetsov (<a href="mailto:askuznet@asu.edu">askuznet@asu.edu</a>).</Message>
         <Message>If you have any questions about your rights as a participant in this research, or if you feel you have been placed at risk, you can contact the Chair of the Human Subjects Institutional Review Board, through the ASU Office of Research Integrity and Assurance, at (480) 965-6788.</Message>
         <Message>Click on the “Proceed” button below to start. By clicking “Proceed” you consent that <strong>you are at least 18 years of age</strong>. We thank you in advance for your time and effort!</Message>
         
