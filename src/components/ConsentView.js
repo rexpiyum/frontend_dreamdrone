@@ -120,7 +120,6 @@ names or identifying information will be included in any publications or present
       this.props.history.push('/allstories');
       return
    }
-    alert("dfdfd");
     fetch('/users/',
       {
         method: 'POST',
